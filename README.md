@@ -1,1 +1,1 @@
-# lists-csv
+# Apenas um boiler-plate para trabalhar com itens em CSV
