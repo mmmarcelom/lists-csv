@@ -1,0 +1,14 @@
+#!pip install selenium
+
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.alert import Alert
+from selenium.webdriver.support.ui import Select
+
+path_chromedriver='C:/chromedriver.exe'
+s = Service(path_chromedriver)
+
+driver = webdriver.Chrome(service=s)
